@@ -1,0 +1,126 @@
+:root {
+    --color: #9353f3;
+    --placeholderColor: #a88cd3;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color);
+}
+
+.box {
+    width: 50%;
+    height: 60%;
+    min-width: 600px;
+    display: flex;
+    border-radius: 22px;
+    background-color: var(--color);
+    box-shadow: 4px 4px 8px #7642c2, -4px -4px 8px #b064ff;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-img {
+    width: 80%;
+    height: 80%;
+}
+
+.right {
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #7642c2, -2px -2px 4px #b064ff;
+}
+
+.username,
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+    color: white;
+}
+
+.username > label,
+.password > label {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px #7642c2, -2px -2px 4px #b064ff;
+}
+
+#username,
+#password {
+    background-color: var(--color);
+    color: white;
+    font-size: 20px;
+    border: none;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 8px #7d47cf, inset -4px -4px 8px #a95fff;
+}
+
+#username:focus,
+#password:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: var(--placeholderColor);
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: var(--placeholderColor);
+}
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: var(--placeholderColor);
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: var(--placeholderColor);
+}
+
+.submit {
+    width: 70%;
+    font-size: 20px;
+    height: 45px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: var(--color);
+    box-shadow: 4px 4px 8px #7642c2, -4px -4px 8px #b064ff;
+    border: none;
+    border-radius: 50px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #7642c2, -2px -2px 4px #b064ff;
+}
+
+.submit:focus {
+    outline: none;
+}

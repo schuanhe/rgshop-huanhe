@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.div1{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.div2{
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+}
+.div3{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+/*分页布局css*/
+.fy_s{
+    float: left;
+}
+.fy_z{
+    text-align: center;
+    margin: auto;
+    display:inline-block;
+}
+.fy_x{
+
+    float: right;
+}
+
+
+/*添加按钮css*/
+.button {
+    background-color: #0080FF; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100%;
+}
+
+.button2:hover {
+    width: 100%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*编辑框css 慢慢加边框*/
+.text01 {
+    width: 80%;
+    padding: 8px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    vertical-align: middle;
+    transition: 0.5s;
+    outline: none;
+}
+.text01:focus {
+    border: 3px solid #0080FF;
+}
+
+/*编辑框css 选项*/
+.text02 {
+    width: 35%;
+    padding: 8px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    vertical-align: middle;
+    transition: 0.5s;
+    outline: none;
+}
+.text02:focus {
+    border: 3px solid #0080FF;
+}
+
+
+/* 添加编辑框按钮css*/
+.button01 {
+    background-color: #0080FF; /* 颜色 */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;  /*边距*/
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 30%;
+    border-radius: 10px;  /* 圆角 */
+}
+
+.button01:hover {
+    width: 30%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
